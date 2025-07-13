@@ -7,12 +7,12 @@
 
 body {
   background: #fffaf4;
-  color: #3e2f1c;
+  color: white;
   line-height: 1.6;
 }
 
 header {
-  background: #ffcc70;
+  background: black;
   text-align: center;
   padding: 2rem 1rem;
 }
