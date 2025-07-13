@@ -7,7 +7,7 @@
 
 body {
   background: #fffaf4;
-  color: white;
+  color: white
   line-height: 1.6;
 }
 
@@ -31,7 +31,7 @@ header h1 {
 
 .whatsapp-btn {
   background: #25D366;
-  color: white;
+  color: white
   padding: 0.8rem 1.5rem;
   text-decoration: none;
   border-radius: 25px;
@@ -80,7 +80,7 @@ header h1 {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #ffcc70;
+  background: white;
   margin-top: 2rem;
   font-size: 0.9rem;
 }
