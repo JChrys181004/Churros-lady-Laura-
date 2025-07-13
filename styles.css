@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fffaf4;
+  color: #3e2f1c;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffcc70;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #5c3317;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #7a4e29;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe57;
+}
+
+.products {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #5c3317;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.product {
+  background: #fff4e6;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ffdaaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.product h3 {
+  margin-bottom: 0.5rem;
+  color: #7a4e29;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ffcc70;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
