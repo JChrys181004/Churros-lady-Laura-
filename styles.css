@@ -6,32 +6,31 @@
 }
 
 body {
-  background: #fffaf4;
-  color: white
+  background: #ffffff;
+  color: #000000;
   line-height: 1.6;
 }
 
 header {
-  background: black;
+  background: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 2rem 1rem;
 }
 
 header h1 {
   font-size: 2.5rem;
-  color: #5c3317;
 }
 
 .tagline {
   font-size: 1.2rem;
   margin: 1rem 0;
   font-style: italic;
-  color: #7a4e29;
 }
 
 .whatsapp-btn {
   background: #25D366;
-  color: white
+  color: white;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
   border-radius: 25px;
@@ -53,7 +52,6 @@ header h1 {
 .products h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #5c3317;
 }
 
 .product-list {
@@ -65,22 +63,22 @@ header h1 {
 }
 
 .product {
-  background: #fff4e6;
+  background: #f0f0f0;
   padding: 1rem;
   border-radius: 10px;
-  border: 1px solid #ffdaaa;
+  border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .product h3 {
   margin-bottom: 0.5rem;
-  color: #7a4e29;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: white;
+  background: #000000;
+  color: #ffffff;
   margin-top: 2rem;
   font-size: 0.9rem;
 }
