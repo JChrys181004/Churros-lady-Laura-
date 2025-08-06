@@ -1,7 +1,46 @@
 
-body { font-family: Arial, sans-serif; background-color: #fff; color: #333; margin: 0; padding: 20px; }
-header { text-align: center; margin-bottom: 20px; }
-#recomendaciones { text-align: center; }
-img { max-width: 100%; height: auto; margin-bottom: 20px; }
-ul { list-style: none; padding: 0; }
-li { margin-bottom: 10px; }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.whatsapp-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 15px 25px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
