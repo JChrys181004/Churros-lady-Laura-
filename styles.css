@@ -1,46 +1,77 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
 }
+
 header {
-    text-align: center;
-    margin-bottom: 30px;
+  padding: 2rem;
+  border-bottom: 2px solid #eee;
 }
+
 .logo {
-    width: 150px;
-    margin-bottom: 10px;
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
 }
+
 h1 {
-    font-size: 24px;
+  font-size: 2rem;
+  font-weight: bold;
 }
-h2 {
-    margin-top: 40px;
-    font-size: 20px;
+
+.hero {
+  padding: 2rem;
+  background-color: #f9f9f9;
 }
-ul {
-    list-style: none;
-    padding: 0;
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
-li {
-    margin-bottom: 10px;
+
+.whatsapp-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
-img {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
+
+.whatsapp-btn:hover {
+  background-color: #444;
 }
-.whatsapp-button {
-    display: block;
-    width: fit-content;
-    margin: 40px auto;
-    padding: 15px 25px;
-    background-color: #25D366;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 16px;
+
+.menu {
+  padding: 2rem;
+}
+
+.menu h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.menu li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
 }
